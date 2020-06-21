@@ -12,4 +12,4 @@ all:
 	$(MAKE) -C $(KERNEL_SRC) V=0 M=$$PWD
 
 clean:
-	rm -rf deps.h *.o *.ko *.mod.c *.symvers *.order .*.cmd .tmp_versions
+	rm -rf deps.h *.o *.ko *.mod.c *.symvers *.order .*.cmd *.a *.mod .tmp_versions

@@ -1,0 +1,10 @@
+deps.h
+*.o
+*.ko
+*.mod.c
+*.symvers
+*.order
+.*.cmd
+*.a
+*.mod
+.tmp_versions
